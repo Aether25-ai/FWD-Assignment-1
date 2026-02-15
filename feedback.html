@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Contact the Historian</h1></header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="causes.html">Causes</a>
+        <a href="battles.html">Battles</a>
+        <a href="technology.html">Tech & Impact</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Share Your Thoughts</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <p>Was this information helpful?</p>
+                    <input type="radio" id="yes" name="helpful" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="helpful" value="no">
+                    <label for="no">No</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Subscribe to our historical newsletter</label>
+                </div>
+                <div>
+                    <label for="comments">Any other unheard battles we should include?</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                </div>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p style="text-align: center;">&copy; 2026 WWII Mini-Wiki Project | Fundamentals of Web Design</p>
+    </footer>
+</body>
+</html>
